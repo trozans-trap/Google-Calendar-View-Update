@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+     crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="container">
+        <br>
+        <br>
+        <form method="POST" action="/addevent" >
+            <div class="form-group">
+              <label for="summary">Summary</label>
+              <input type="text" class="form-control" id="summary" name="summary">
+            </div>
+            <div class="form-group">
+              <label for="location">location</label>
+              <input type="text" class="form-control" id="location" name="location">
+            </div>
+            <div class="form-group">
+                <label for="description">description</label>
+                <input type="text" class="form-control" id="description" name="description">
+              </div>
+            <div class="form-group">
+                <label for="start time">start time</label>
+                <input type="text" class="form-control" id="start time" placeholder="April 28, 2020 11:15:00" name="starttime">
+            </div>
+            <div class="form-group">
+                <label for="end time">end time</label>
+                <input type="text" class="form-control" id="end time" placeholder="April 28, 2020 16:15:00" name="endtime">
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+    </div>
+    
+</body>
+</html>

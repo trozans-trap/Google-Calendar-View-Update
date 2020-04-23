@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>hello</title> 
+</head>
+
+<body>
+   <h1 style="float: left;" >Dashboard</h1>
+   <a class="right" href="/logout" style="float: right;">Logout</a>
+   <img src="<%= data.displayPicture %>" alt="" height="200px" >
+   <ul>
+       <li><h3><%= data.name %></h3></li>
+       <li><%= data.email %></li>
+   </ul>
+   <br>
+   <ul>
+    <% for(var i =0 ; i < data.events.length; i++){ %>
+        <li ><%= data.events[i].summary  %>  &nbsp; <%= data.events[i].start.dateTime %> </li>
+        <% }  %>
+   </ul>
+</body>
+
+</html>
