@@ -1,8 +1,11 @@
 const express = require('express');
-const app = express();
 const bodyParser = require('body-parser');
-app.use(bodyParser.json());
 const session = require('express-session');
+
+const app = express();
+
+app.use(bodyParser.json());
+
 app.set('view engine','ejs');
 
 // express-session config
@@ -21,7 +24,10 @@ app.use(
   )
 
 app.use('/',require('./routes/api'))
+
+
 const port = process.env.PORT||3000;
+
 app.listen(port,()=>{
     console.log("running sucessfully");
 })
