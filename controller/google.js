@@ -2,9 +2,9 @@ const { google } = require('googleapis');
 
 // google app config
 const googleConfig = {
-    clientId: '980105273895-qvm5nq0erf9mh81porh8du2hb8gq97ku.apps.googleusercontent.com',
-    clientSecret: 'J2Lo7hWB7ommQheM9zQ0upav',
-    redirect: 'http://trozans-trap.github.io/Google-Calender-View-Update/auth/success'
+    clientId: '',
+    clientSecret: '',
+    redirect: ''
 }
 
 // scopes use for the application
