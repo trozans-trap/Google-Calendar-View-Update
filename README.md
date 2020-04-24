@@ -1,4 +1,4 @@
-
+use https://calenderdetail.herokuapp.com/home  (in web browser)       
 
 for local use (ask Google api credentials from me)               
 
@@ -10,7 +10,7 @@ modules used-
 
 googleapis         
 express               
-express-session          
+cookie-session          
 ejs                          
 body-parser              
 
