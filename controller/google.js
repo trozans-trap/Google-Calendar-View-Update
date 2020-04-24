@@ -4,7 +4,7 @@ const { google } = require('googleapis');
 const googleConfig = {
     clientId: '980105273895-qvm5nq0erf9mh81porh8du2hb8gq97ku.apps.googleusercontent.com',
     clientSecret: 'J2Lo7hWB7ommQheM9zQ0upav',
-    redirect: 'http://localhost:3000/auth/success'
+    redirect: 'https://calenderdetail.herokuapp.com/auth/success'
 }
 
 // scopes use for the application
